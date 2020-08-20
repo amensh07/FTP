@@ -1,0 +1,14 @@
+<suite name="FTP basic tests">
+    <test name="Upload/download ftp server test">
+        <groups>
+            <run>
+                <include name="download"/>
+                <include name="upload"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="ftptest.downloadtests.DownloadTests"/>
+            <class name="ftptest.uploadtests.UploadTests"/>
+        </classes>
+    </test>
+</suite>
